@@ -52,7 +52,7 @@
   color: var(--careers-text);
 }
 
-/* ── 1. Page Hero ────────────────────────────────────────── */
+/* â”€â”€ 1. Page Hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .careers-page-hero {
   padding: 60px 24px 50px;
   text-align: center;
@@ -124,7 +124,7 @@
   line-height: 1.7;
 }
 
-/* ── 2. Perks / Stats Strip ──────────────────────────────── */
+/* â”€â”€ 2. Perks / Stats Strip â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .stats-strip {
   display: flex;
   justify-content: center;
@@ -176,7 +176,7 @@
   font-weight: 600;
 }
 
-/* ── 3. Listings Section ─────────────────────────────────── */
+/* â”€â”€ 3. Listings Section â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .careers-listings-section {
   padding: 70px 20px 80px;
   max-width: 1000px;
@@ -218,7 +218,7 @@
   gap: 18px;
 }
 
-/* ── 4. Job Card (Signature Left Border Line System) ───────── */
+/* â”€â”€ 4. Job Card (Signature Left Border Line System) â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .job-card {
   background: var(--careers-card-bg);
   border: 1px solid var(--careers-border);
@@ -359,7 +359,7 @@
   }
 }
 
-/* ── 6. Certificate Verification Card ────────────────────── */
+/* â”€â”€ 6. Certificate Verification Card â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .verification-section {
   padding: 20px 20px 80px;
   max-width: 1000px;
@@ -443,7 +443,7 @@
   }
 }
 
-/* ── 7. Application Modal ────────────────────────────────── */
+/* â”€â”€ 7. Application Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .app-modal-overlay {
   position: fixed;
   inset: 0;

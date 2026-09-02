@@ -1,4 +1,4 @@
-/* ── Light Mode Tokens ─────────────────────────────────────────────────── */
+/* â”€â”€ Light Mode Tokens â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 :root {
   --navy: #0f172a;
   --navy-light: #1e293b;
@@ -21,7 +21,7 @@
   --amber-soft: #fffbeb;
 }
 
-/* ── Dark Mode Tokens (activated by html.dark class set by App.jsx) ──── */
+/* â”€â”€ Dark Mode Tokens (activated by html.dark class set by App.jsx) â”€â”€â”€â”€ */
 .dark {
   --navy: #e2e8f0;
   --navy-light: #cbd5e1;
@@ -1116,7 +1116,7 @@ body.no-scroll {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Modal Left Column — Image Showcase */
+/* Modal Left Column â€” Image Showcase */
 .modal-left-showcase {
   position: relative;
   display: flex;
@@ -1180,7 +1180,7 @@ body.no-scroll {
   display: none;
 }
 
-/* Modal Right Column — Content */
+/* Modal Right Column â€” Content */
 .modal-right-content {
   display: flex;
   flex-direction: column;
@@ -1432,7 +1432,7 @@ body.no-scroll {
 }
 
 /* ==========================================================================
-   8. DARK MODE — Improvements
+   8. DARK MODE â€” Improvements
    ========================================================================== */
 .dark .ambient-mesh-canvas {
   background-image:

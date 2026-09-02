@@ -38,7 +38,7 @@
   --footer-accent-glow: rgba(56, 189, 248, 0.25);
 }
 
-/* ── Container ───────────────────────────────────────────── */
+/* â”€â”€ Container â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer-container {
   width: 100%;
   max-width: 1280px;
@@ -59,7 +59,7 @@
   }
 }
 
-/* ── 3-Column Responsive Grid ────────────────────────────── */
+/* â”€â”€ 3-Column Responsive Grid â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -81,7 +81,7 @@
   }
 }
 
-/* ── Column 1: Brand & Identity ──────────────────────────── */
+/* â”€â”€ Column 1: Brand & Identity â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer-brand-col {
   display: flex;
   flex-direction: column;
@@ -120,7 +120,7 @@
   filter: drop-shadow(0 2px 10px rgba(56, 189, 248, 0.35));
 }
 
-/* ── Elegant Straight Tagline ───────────────────────────── */
+/* â”€â”€ Elegant Straight Tagline â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer-tagline-wrapper {
   display: flex;
   flex-direction: column;
@@ -196,7 +196,7 @@
   max-width: 380px;
 }
 
-/* ── Column 2: Contact Info ──────────────────────────────── */
+/* â”€â”€ Column 2: Contact Info â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer-contact-col {
   display: flex;
   flex-direction: column;
@@ -269,7 +269,7 @@
   box-shadow: 0 0 12px var(--footer-accent-glow);
 }
 
-/* ── Column 3: Social & Community ────────────────────────── */
+/* â”€â”€ Column 3: Social & Community â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer-social-col {
   display: flex;
   flex-direction: column;
@@ -344,7 +344,7 @@
   box-shadow: 0 0 8px #22c55e;
 }
 
-/* ── Bottom Bar ──────────────────────────────────────────── */
+/* â”€â”€ Bottom Bar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer-bottom-bar {
   margin-top: 48px;
   padding-top: 24px;
@@ -395,7 +395,7 @@
   color: var(--footer-accent);
 }
 
-/* ── Extreme Screen Adaptations ──────────────────────────── */
+/* â”€â”€ Extreme Screen Adaptations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (max-width: 480px) {
   .footer-container {
     padding: 36px 16px 20px;
