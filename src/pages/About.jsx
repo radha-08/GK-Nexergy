@@ -10,14 +10,14 @@ const sections = [
     {
         id: "story",
         title: "Our Story",
-        text: "GK Nexergy was founded by professionals with over 25 years of IT industry experience — spanning software development, project delivery and workforce training. That experience shapes everything we do: how we teach, how we build and how we help organisations adopt technology with confidence.",
+        text: "GK Nexergy was founded by professionals with over 25 years of IT industry experience — spanning software development, project delivery. That experience shapes everything we do: how we teach, how we build and how we help organisations adopt technology with confidence.",
         items: [],
     },
     {
         id: "what-we-do",
         title: "What We Do",
-        text: "We operate across training, software solutions and digital transformation — one connected ecosystem of technology capability.",
-        items: ["Technology training", "Software solutions", "Digital transformation", "AI", "Data", "Digital growth"],
+        text: "We operate across  software solutions and digital transformation — one connected ecosystem of technology capability.",
+        items: ["Technology ", "Software solutions", "Digital transformation", "AI", "Data", "Digital growth"],
         icons: [Users, Cpu, Sparkles, Compass, Factory, TrendingUp],
     },
     {
@@ -47,12 +47,12 @@ const About = () => (
     <>
         <SEO
             title="About GK Nexergy | Technology & Workforce Development"
-            description="GK Nexergy is a technology training, skill development and software solutions company founded by professionals with over 25 years of IT industry experience."
+            description="GK Nexergy is a technology, skill development and software solutions company founded by professionals with over 25 years of IT industry experience."
         />
         <PageHero
             eyebrow="About GK Nexergy"
             titleLines={["Technology Built Around People.", "Solutions Built Around Purpose."]}
-            description="GK Nexergy is a technology training, skill development, and software solutions company founded by professionals with over 25 years of IT industry experience and extensive expertise in software development, project delivery, and workforce training."
+            description="GK Nexergy is a technology, skill development, and software solutions company founded by professionals with over 25 years of IT industry experience and extensive expertise in software development, project delivery, and workforce  ."
             testId="about-hero"
         >
             <div className="relative overflow-hidden rounded-2xl" data-testid="about-hero-image">
