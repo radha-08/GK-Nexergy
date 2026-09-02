@@ -141,9 +141,7 @@ const Contact = () => {
                 <span>Send via WhatsApp</span>
                 <Send size={16} className="btn-send-arrow" />
               </button>
-              <span className="whatsapp-hint">
-                Opens WhatsApp with your pre-filled inquiry (+91 91045 80900)
-              </span>
+              
             </div>
           </form>
         </div>
@@ -192,8 +190,8 @@ const Contact = () => {
               For questions about programs, partnerships, college tie-ups, or any information you would like in writing.
             </p>
             <div className="card-footer">
-              <a href="mailto:contact@gknexergy.com" className="email-link">
-                contact@gknexergy.com
+              <a href="mailto:gknexergy@gmail.com" className="email-link">
+                gknexergy@gmail.com 
               </a>
             </div>
           </article>
