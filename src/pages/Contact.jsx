@@ -14,7 +14,7 @@ import {
   Send,
 } from "lucide-react";
 import SEO from "../components/SEO";
-import "./contact.css";
+import "./Contact.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
