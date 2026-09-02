@@ -284,6 +284,7 @@
     backdrop-filter: blur(8px);
     color: #e6e6e6;
 }
+/* Dark Mode Styles */
 
 .dark [data-testid="main-navbar"],
 .dark header[data-testid="main-navbar"] {
@@ -1753,6 +1754,7 @@ header.glass-header,
 /* CTA Button Container Spacing */
 .landing-cta-wrapper {
     margin-top: clamp(1.25rem, 2.6vh, 2.25rem) !important;
+    
 }
 
 @media (max-width: 480px) {

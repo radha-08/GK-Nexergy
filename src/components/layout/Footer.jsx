@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Youtube, Github } from "lucide-react";
 import "./Footer.css";
-
+import { Users, Briefcase, Globe } from "lucide-react";
 const Footer = () => (
   <footer className="site-footer" data-testid="main-footer">
     <div className="footer-container">
@@ -15,10 +15,30 @@ const Footer = () => (
               className="footer-logo-img"
             />
           </Link>
-          <p className="footer-tagline">
-            Empowering People. Enabling Businesses. Transforming Communities.
-          </p>
-         
+      {/* 1. Brand Section */}
+<div className="footer-brand-col">
+   
+  <div className="footer-tagline-wrapper">
+    <div className="footer-tagline-item">
+      <span className="tagline-icon">
+        <Users className="h-4 w-4" />
+      </span>
+      <span>Empowering People.</span>
+    </div>
+    <div className="footer-tagline-item">
+      <span className="tagline-icon">
+        <Briefcase className="h-4 w-4" />
+      </span>
+      <span>Enabling Businesses.</span>
+    </div>
+    <div className="footer-tagline-item">
+      <span className="tagline-icon">
+        <Globe className="h-4 w-4" />
+      </span>
+      <span>Transforming Communities.</span>
+    </div>
+  </div>
+</div>
         </div>
 
         {/* 2. Contact Section */}

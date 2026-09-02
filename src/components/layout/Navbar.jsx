@@ -271,14 +271,16 @@ const Navbar = ({ theme, onToggleTheme }) => {
                         )}
                     </button>
 
-                    <Link
-                        to="/contact"
+                    <a
+                        href="https://forms.gle/GCqvWiWqxwvDSzoZ6"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         data-testid="nav-cta"
                         className="group hidden items-center gap-2 rounded-full bg-brand px-5 py-2.5 font-display text-sm font-bold text-white transition-colors duration-300 hover:bg-electric hover:text-ink dark:bg-[#1a3a5c] dark:hover:bg-[#0d1f33] sm:inline-flex"
                     >
                         Start a Conversation
                         <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                    </Link>
+                    </a>
 
                     <button
                         data-testid="mobile-menu-toggle"
@@ -354,13 +356,15 @@ const Navbar = ({ theme, onToggleTheme }) => {
                                 </Link>
                             ))}
                         </div>
-                        <Link
-                            to="/contact"
+                        <a
+                            href="https://forms.gle/GCqvWiWqxwvDSzoZ6"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             data-testid="mobile-nav-cta"
                             className="mb-4 mt-2 flex items-center justify-center gap-2 rounded-full bg-brand px-6 py-3.5 font-display text-sm font-bold text-white dark:bg-[#1a3a5c]"
                         >
                             Start a Conversation <ArrowRight className="h-4 w-4" />
-                        </Link>
+                        </a>
                     </motion.div>
                 )}
             </AnimatePresence>
