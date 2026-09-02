@@ -57,7 +57,7 @@ const Footer = () => (
                 <span style={{ display: "block", fontSize: "11px", color: "var(--footer-muted)", textTransform: "uppercase", letterSpacing: "0.5px" }}>
                   Email Inquiry
                 </span>
-                <span>info@gknexergy.com</span>
+                <span>gknexergy@gmail.com</span>
               </div>
             </a>
 
