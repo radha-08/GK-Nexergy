@@ -65,6 +65,7 @@ const QuinteraMegaDropdown = ({ label, to, menuData, testId }) => {
                                     )}
                                 </h4>
 
+<<<<<<< HEAD
                                 <Link
                                     to={col.to || col.links?.[0]?.to || "#"}
                                     onClick={() => setOpen(false)}
@@ -73,6 +74,11 @@ const QuinteraMegaDropdown = ({ label, to, menuData, testId }) => {
                                 >
                                     <img src={col.image} alt={col.title} loading="lazy" />
                                 </Link>
+=======
+                                <div className="quintera-megamenu-img">
+                                    <img src={col.image} alt={col.title} loading="lazy" />
+                                </div>
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
 
                                 <ul>
                                     {col.links.map((link) => (
@@ -131,6 +137,7 @@ const MobileMegaSection = ({ label, to, menuData, onNavigate }) => {
                             {menuData.columns.map((col) => (
                                 <div key={col.title} className="quintera-mobile-col">
                                     <div className="flex items-center gap-3">
+<<<<<<< HEAD
                                         <Link
                                             to={col.to || col.links?.[0]?.to || "#"}
                                             onClick={onNavigate}
@@ -143,6 +150,13 @@ const MobileMegaSection = ({ label, to, menuData, onNavigate }) => {
                                                 className="h-12 w-16 shrink-0 rounded object-cover cursor-pointer hover:opacity-90 transition-opacity"
                                             />
                                         </Link>
+=======
+                                        <img
+                                            src={col.image}
+                                            alt={col.title}
+                                            className="h-12 w-16 shrink-0 rounded object-cover"
+                                        />
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
                                         <div className="flex items-center gap-1.5">
                                             <span className="text-xs font-bold text-slate-900 dark:text-white">
                                                 {col.title}

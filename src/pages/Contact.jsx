@@ -41,7 +41,11 @@ const Contact = () => {
     setError("");
 
     const text = `*New Inquiry from Website*\n\n*Name:* ${formData.name.trim()}\n*Email:* ${formData.email.trim()}\n*Message:* ${formData.message.trim()}`;
+<<<<<<< HEAD
     const whatsappUrl = `https://wa.me/919704585960?text=${encodeURIComponent(text)}`;
+=======
+    const whatsappUrl = `https://wa.me/919104580900?text=${encodeURIComponent(text)}`;
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
     window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   };
 
@@ -59,6 +63,7 @@ const Contact = () => {
         <p>Send us a direct WhatsApp message or choose from our channels below.</p>
       </section>
 
+<<<<<<< HEAD
       {/* Contact Cards */}
       <section className="contact-cards-section">
         <div className="contact-card-grid">
@@ -112,6 +117,9 @@ const Contact = () => {
       </section>
 
       {/* WhatsApp Fast Contact Form */}
+=======
+      {/* WhatsApp Fast Contact Form at Top */}
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
       <section className="contact-form-section">
         <div className="contact-form-container">
           <div className="contact-form-header">
@@ -193,11 +201,71 @@ const Contact = () => {
                 <span>Send via WhatsApp</span>
                 <Send size={16} className="btn-send-arrow" />
               </button>
+<<<<<<< HEAD
+=======
+              
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             </div>
           </form>
         </div>
       </section>
 
+<<<<<<< HEAD
+=======
+      {/* Contact Cards */}
+      <section className="contact-cards-section">
+        <div className="contact-card-grid">
+
+          <article className="contact-card">
+            <div className="card-top">
+              <div className="card-icon blue">
+                <Phone size={20} strokeWidth={2.2} />
+              </div>
+              <span className="card-eyebrow">Immediate Support</span>
+            </div>
+            <h3>Call or WhatsApp</h3>
+            <p>
+              Speak with our team about courses, mentorship, admissions, or the next step in your learning journey.
+            </p>
+            <div className="card-footer">
+              <a href="tel:+919104580900" className="phone-link">
+                +91 91045 80900
+              </a>
+              <a
+                href="https://wa.me/919104580900"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-btn"
+              >
+                <MessageCircle size={14} />
+                WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <article className="contact-card">
+            <div className="card-top">
+              <div className="card-icon indigo">
+                <Mail size={20} strokeWidth={2.2} />
+              </div>
+              <span className="card-eyebrow">General Inquiries</span>
+            </div>
+            <h3>Email us</h3>
+            <p>
+              For questions about programs, partnerships, college tie-ups, or any information you would like in writing.
+            </p>
+            <div className="card-footer">
+              <a href="mailto:gknexergy@gmail.com" className="email-link">
+                gknexergy@gmail.com 
+              </a>
+            </div>
+          </article>
+
+
+        </div>
+      </section>
+
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
       {/* Response Hours */}
       <section className="response-hours-wrapper">
         <div className="response-hours-container">
@@ -231,9 +299,16 @@ const Contact = () => {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default Contact;
+=======
+export default Contact;
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929

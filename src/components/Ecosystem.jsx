@@ -51,13 +51,22 @@ const Ecosystem = ({ activeIndex = 0, onSelectNode }) => {
                     const angle = (i / ECOSYSTEM_NODES.length) * 2 * Math.PI - Math.PI / 2;
                     const x = 50 + radius * Math.cos(angle);
                     const y = 50 + radius * Math.sin(angle);
+<<<<<<< HEAD
+=======
+                    const isActive = i === activeIndex;
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
                     return (
                         <line
                             key={i}
                             x1="50" y1="50" x2={x} y2={y}
                             stroke="currentColor"
+<<<<<<< HEAD
                             strokeWidth="0.25"
                             className="text-brand/30 dark:text-electric/30 transition-colors"
+=======
+                            strokeWidth={isActive ? "0.6" : "0.25"}
+                            className={isActive ? "text-brand dark:text-electric transition-colors" : "text-brand/30 dark:text-electric/30 transition-colors"}
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
                         />
                     );
                 })}
@@ -181,4 +190,8 @@ const Ecosystem = ({ activeIndex = 0, onSelectNode }) => {
     );
 };
 
+<<<<<<< HEAD
 export default Ecosystem;
+=======
+export default Ecosystem;
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929

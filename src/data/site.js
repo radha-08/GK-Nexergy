@@ -136,7 +136,10 @@ export const MEGA_COMPANY = {
     columns: [
         {
             title: "About & Leadership",
+<<<<<<< HEAD
             to: "/about",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
             links: [
                 { label: "About Us & Story", to: "/about" },
@@ -145,7 +148,10 @@ export const MEGA_COMPANY = {
         },
         {
             title: "Why GK Nexergy",
+<<<<<<< HEAD
             to: "/why-gk-nexergy",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             badge: "SPECIALIST",
             image: "https://imageio.forbes.com/specials-images/imageserve/6200b0dddcf32d3be937fa84/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
             links: [
@@ -155,7 +161,10 @@ export const MEGA_COMPANY = {
         },
         {
             title: "Industries & Reach",
+<<<<<<< HEAD
             to: "/industries",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80",
             links: [
                 { label: "Industries We Serve", to: "/industries" },
@@ -175,7 +184,10 @@ export const MEGA_SOLUTIONS = {
     columns: [
         {
             title: "Software & Engineering",
+<<<<<<< HEAD
             to: "/solutions/software-development",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
             links: [
                 { label: "Software Development", to: "/solutions/software-development" },
@@ -184,7 +196,10 @@ export const MEGA_SOLUTIONS = {
         },
         {
             title: "AI & Innovation",
+<<<<<<< HEAD
             to: "/solutions/ai-automation",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             badge: "SPECIALIST",
             image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&q=80",
             links: [
@@ -194,7 +209,10 @@ export const MEGA_SOLUTIONS = {
         },
         {
             title: "Data & Strategy",
+<<<<<<< HEAD
             to: "/solutions/data-analytics",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80",
             links: [
                 { label: "Data & Analytics", to: "/solutions/data-analytics" },
@@ -214,7 +232,10 @@ export const MEGA_ACADEMY = {
     columns: [
         {
             title: "Academy & Foundations",
+<<<<<<< HEAD
             to: "/academy",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80",
             links: [
                 { label: "Nexergy Academy Overview", to: "/academy" },
@@ -223,7 +244,10 @@ export const MEGA_ACADEMY = {
         },
         {
             title: "Cyber Security",
+<<<<<<< HEAD
             to: "/academy/cyber-security",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             badge: "SPECIALIST",
             image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
             links: [
@@ -233,7 +257,10 @@ export const MEGA_ACADEMY = {
         },
         {
             title: "Data & Databases",
+<<<<<<< HEAD
             to: "/academy/postgresql-mastery",
+=======
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
             image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80",
             links: [
                 { label: "PostgreSQL Database Mastery", to: "/academy/postgresql-mastery" },
@@ -483,4 +510,8 @@ export const ECOSYSTEM_NODES = [
 
 export const IMAGES = {
     team: "https://images.pexels.com/photos/6804068/pexels-photo-6804068.jpeg?auto=compress&cs=tinysrgb&w=1600",
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 3ae9bc15a1dc980270aef1b1fab94c3cbf8f9929
